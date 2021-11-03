@@ -2,10 +2,10 @@ var background_image = "mars.jpg";
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 var rover_image = "rover.png";
-var rx = "";
-var ry = "";
-var rw = "";
-var rh = "";
+var rx = 10;
+var ry = 10;
+var rw = 70;
+var rh = 90;
 background_imgTag = "";
 rover_imgTag = "";
 function add() {
